@@ -1,3 +1,10 @@
+body{
+  background: url("http://source.unsplash.com/3J6Shtv2QAY");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 70px;
+}
+
 body, html {
     width: 100%;
     height: 100%;
@@ -11,9 +18,14 @@ h1 {
 	font-size: 5em;
 }
 
+.jumbotron{
+  background-image: url("http://source.unsplash.com/u9RgwJkxyWA");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+}
 
 #content{
-	padding-top: 25%;
 	text-align: center;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
                  0px 8px 13px rgba(0,0,0,0.1),
