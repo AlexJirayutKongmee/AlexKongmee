@@ -1,5 +1,5 @@
 body{
-  background: url("http://source.unsplash.com/3J6Shtv2QAY");
+  background: url("http://source.unsplash.com/xrVDYZRGdw4");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 70px;
@@ -15,22 +15,22 @@ body, html {
 h1 {
   color:White;
 	font-weight: 700;
-	font-size: 5em;
+	font-size: 4em;
 }
 
 .jumbotron{
-  background-image: url("http://source.unsplash.com/u9RgwJkxyWA");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: transparent;
+}
+
+.jumbotron h1{
+  font-family: 'Gravitas One', cursive;
   color: white;
 }
 
-.jumbotron .h1, .jumbotron h1{
-  font-family: 'Shadows Into Light Two', cursive;
-}
-
-.jumbotron .h3, .jumbotron h3{
+.jumbotron h3{
   font-family: 'Patrick Hand', cursive;
+  color: white;
+
 }
 
 #content{
@@ -41,7 +41,7 @@ h1 {
 }
 
 hr {
-    width: 400px;
+    width: 1000px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
