@@ -1,6 +1,6 @@
 body{
   background: url("https://source.unsplash.com/m_HRfLhgABo");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   padding-top: 70px;
 }
