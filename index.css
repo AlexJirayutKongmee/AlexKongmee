@@ -22,11 +22,10 @@ h1 {
   font-size: 3rem;
 }
 
-hr{
-  border: 0;
-  height: 1px;
-  background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+
+.navbar-inverse {
+  background-color: rgba(46, 46, 47, 1);
+  border-color: rgb(46,46,47);
 }
 
 .jumbotron {
@@ -42,6 +41,14 @@ hr{
   font-family: 'Patrick Hand', cursive;
   color: white;
 }
+
+hr{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
 
 .thumbnail {
   background-color: rgba(192, 192, 192, 0.5);
