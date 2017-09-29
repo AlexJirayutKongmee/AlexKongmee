@@ -12,6 +12,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block
 }
 
+hr{
+  border-top: 1px solid #000;
+}
+
 audio, canvas, progress, video {
   display: inline-block;
   vertical-align: baseline
@@ -86,8 +90,6 @@ svg:not(:root) {
 figure {
   margin: 1em 40px
 }
-
-
 
 pre {
   overflow: auto
