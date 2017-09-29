@@ -87,7 +87,9 @@ figure {
   margin: 1em 40px
 }
 
-
+hr{
+  border: transparent;
+}
 
 pre {
   overflow: auto
