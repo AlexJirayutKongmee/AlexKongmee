@@ -12,9 +12,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block
 }
 
-hr{
-  border-top: 1px solid #000;
-}
+
 
 audio, canvas, progress, video {
   display: inline-block;
@@ -5130,7 +5128,7 @@ a.badge:focus, a.badge:hover {
 }
 
 .jumbotron>hr {
-  
+
 }
 
 .container .jumbotron, .container-fluid .jumbotron {
