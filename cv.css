@@ -13,3 +13,7 @@ body{
   height: 100%;
   padding-top: 80px;
 }
+
+.container{
+  background-color: rgba(130, 130, 130, 0.73)
+}
