@@ -4,7 +4,7 @@ h1{
   font-weight: 700;
   font-size: 3em;
   font-family: 'Gravitas One', cursive;
-    text-shadow: 0px 4px 40px rgba(0, 0, 0, 0.4), 0px 8px 40px rgba(0, 0, 0, 0.1), 0px 18px 40px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 40px rgba(0, 0, 0, 0.4), 0px 8px 40px rgba(0, 0, 0, 0.1), 0px 18px 40px rgba(0, 0, 0, 0.1);
 }
 
 body{
@@ -21,7 +21,12 @@ body{
   background-color: rgba(255, 255, 255, 0.65)
 }
 
-.container .box h2{
+.container .box h3{
+  font-family: 'Gravitas One', cursive;
   font-weight: bold;
   text-decoration: underline;
+}
+
+.container .box p{
+  font-family: 'Shadows Into Light', cursive;
 }
