@@ -33,6 +33,11 @@ body, html {
   text-decoration: underline;
 }
 
+.container .box h5{
+  font-family: 'Merienda', cursive;
+  font-weight: bold;  
+}
+
 .container .box p{
   font-family: 'Patrick Hand', cursive;
 }
