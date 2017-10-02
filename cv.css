@@ -46,3 +46,8 @@ body, html {
 .bold {
   font-weight: bold;
 }
+
+.container .box a{
+  font-size: 15px;
+  text-decoration: underline;
+}
