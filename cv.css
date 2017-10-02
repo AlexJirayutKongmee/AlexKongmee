@@ -23,12 +23,6 @@ body, html {
   overflow: auto;
 }
 
-.container{
-  margin: 0% 2% 0% 2%;
-  height: auto;
-  width: 100%;
-}
-
 .container .box{
   background-color: rgba(255, 255, 255, 0.8);
   padding: 30px;
