@@ -8,7 +8,7 @@ h1{
 }
 
 body{
-  background: url("https://source.unsplash.com/m_HRfLhgABo");
+  background: url("https://source.unsplash.com/vpTr0KN4vdY");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -21,4 +21,28 @@ body, html {
   width: 100%;
   height: 100%;
   overflow: auto;
+}
+
+.container .box{
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+}
+
+.container .box h3{
+  font-family: 'Gravitas One', cursive;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.container .box h5{
+  font-family: 'Merienda', cursive;
+  font-weight: bold;
+}
+
+.container .box p{
+  font-family: 'Patrick Hand', cursive;
+}
+
+.bold {
+  font-weight: bold;
 }
