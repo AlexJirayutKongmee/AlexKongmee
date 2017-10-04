@@ -26,15 +26,15 @@ a{
   color: white;
 }
 
-.btn .btn-lg-round a: hover{
-  color: red;
-}
 
 .btn-lg-round{
   border-radius: 24px;
   background-color: black;
 }
 
+.btn-lg-round:hover{
+  color: red;
+}
 
 .navbar-inverse {
   background-color: rgba(46, 46, 47, 1);
