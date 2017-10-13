@@ -1,4 +1,4 @@
-h1{
+h1 {
   text-align: center;
   color: white;
   font-size: 5rem;
@@ -7,7 +7,7 @@ h1{
   text-shadow: 0px 4px 40px rgba(0, 0, 0, 0.4), 0px 8px 40px rgba(0, 0, 0, 0.1), 0px 18px 40px rgba(0, 0, 0, 0.1);
 }
 
-body{
+body {
   background: url("https://source.unsplash.com/KE0nC8-58MQ");
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,23 +23,29 @@ body, html {
   overflow: auto;
 }
 
-.container .box{
+hr .fade {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.container .box {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 30px;
 }
 
-.container .box h3{
+.container .box h3 {
   font-family: 'Gravitas One', cursive;
   font-weight: bold;
   text-decoration: underline;
 }
 
-.container .box h5{
+.container .box h5 {
   font-family: 'Merienda', cursive;
   font-weight: bold;
 }
 
-.container .box p{
+.container .box p {
   font-family: 'Patrick Hand', cursive;
 }
 
