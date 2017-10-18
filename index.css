@@ -10,13 +10,6 @@ body, html {
   overflow: auto;
 }
 
-.navbar{
-  background-color: #f4f4f4;
-  border: 0;
-  color: #000 !important;
-  margin-bottom: 10px;
-}
-
 .pic1, .pic2, .pic3{
   position: relative;
   opacity: 0.70;
@@ -29,6 +22,7 @@ body, html {
 }
 
 .pic1{
+  padding-top: 70px;
   background-image: url('background/pic1.jpeg');
   min-height: 100%;
 }
