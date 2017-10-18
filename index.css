@@ -75,6 +75,13 @@ body, html {
   display: inline-block;
 }
 
+.center{
+  text-align: center;
+  font-size: 14px !important;
+  color: black !important;
+  text-shadow: 2px 2px #FBF9F1;
+}
+
 .ptext .border.trans{
   background-color: transparent;
 }
