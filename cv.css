@@ -23,6 +23,12 @@ body, html {
   overflow: auto;
 }
 
+.navbar-inverse{
+  font-family: 'Open Sans Condensed', sans-serif;
+  border: 0;
+}
+
+
 .container .box{
   background-color: rgba(255, 255, 255, 0.8);
   padding: 30px;
