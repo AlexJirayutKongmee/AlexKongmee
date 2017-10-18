@@ -14,6 +14,7 @@
   <link href="https://fonts.googleapis.com/css?family=Gravitas+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
+  <script type="text/javascript" src="dotnav.js"></script>
   <title>Alex Kongmee</title>
 </head>
 
@@ -46,12 +47,28 @@
 
   </nav>
 
+<!---
+
+          DOT nav bar
+
+--->
+
+<div data-spy="affix" id="dot-nav">
+  <ul>
+    <li class="awesome-tooltip active" title="Home"><a href="#home"></a></li>
+    <li class="awesome-tooltip" title="ven1"><a href="#ven1"></a></li>
+    <li class="awesome-tooltip" title="cV"><a href="#cv"></a></li>
+    <li class="awesome-tooltip" title="ven2"><a href="#ven2"></a></li>
+  </ul>
+</div>
+
+
   <!---
         1. pic
 
   --->
 
-  <div class="pic1">
+  <div class="pic1", id="home">
     <div class="ptext">
       <span class="border">
     Alex Jirayut Kongmee Bernsbo
@@ -65,7 +82,7 @@
           section1
                     --->
 
-  <section class="section section-light">
+  <section class="section section-light", id="ven1">
     <h2> Section one</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi et, sunt, totam accusamus quibusdam iure tempora amet tempore consequatur veniam, sit veritatis facilis debitis numquam? Maiores soluta iure, corporis voluptas harum sequi eius laboriosam
@@ -80,7 +97,7 @@
 
   --->
 
-  <div class="pic2" id="showcase">
+  <div class="pic2 showcase", id="cv">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-sm-6">
@@ -89,11 +106,11 @@
         </div>
         </div>
         <div class="col-md-6 col-sm-6">
-          <div class="showcase-right">
+          <div class="container box">
             <h1>CV</h1>
             <p>Mit navn er Alex Jirayut Kongmee Bernsbo. Jeg er 20 år gammel og jeg er elev på SKP i Ballerup som Datatekniker med speciale i programmering. Jeg startet i SKP d. 31 august 2017. Grundet til jeg valgte uddannelsen er fordi jeg altid har haft interessen i IT, men aldrig selv havde forfulgt det indtil nu. </p>
           </div>
-          <a href="" class="btn btn-default btn-lg">Læs mere</a>
+          <a href="https://alexjirayutkongmee.github.io/alexkongmee/cv" class="btn btn-default btn-lg">Læs mere</a>
         </div>
       </div>
     </div>
@@ -104,7 +121,7 @@
           section2
                     --->
 
-  <section class="section section-dark">
+  <section class="section section-dark", id="ven2">
     <h2> Section two</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi et, sunt, totam accusamus quibusdam iure tempora amet tempore consequatur veniam, sit veritatis facilis debitis numquam? Maiores soluta iure, corporis voluptas harum sequi eius laboriosam
