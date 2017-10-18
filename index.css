@@ -34,6 +34,9 @@ body, html {
 .pic2{
   background-image: url('background/pic2.jpeg');
   min-height: 400px;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-shadow: 1px 1px #000;
 }
 
 .pic3{
@@ -87,17 +90,16 @@ body, html {
 }
 
 #showcase h1{
-  margin-bottom:20px;
-  float: left:
+  margin-bottom:50px;
+  margin-top: 80px;
 }
 
 #showcase img{
-  width:35%;
+  width: 61%;
   height: 35%;
   margin-left: 60px;
   float: center;
-  border-radius: 50%;
-}
+  padding-top: 80px;
 }
 
 .left{
