@@ -60,9 +60,22 @@
       <br>
 
       <form method="POST" action="https://formspree.io/alexkongmee@gmail.com">
-        <input type="text" name="name">
-        <input type="email" name="_replyto">
-        <input type="submit" value="Send">
+
+        <div class="contact-info">
+          <label> <span>Dit navn: </span>
+            <input type="text" name="name">
+          </label>
+
+          <label> <span>E-mail: </span>
+            <input type="email" name="_replyto">
+          </label>
+        </div>
+
+        <label> <span>Besked: </span>
+        <textarea name="message"></textarea>
+      </label>
+
+        <input type="submit" value="Send" class="submit">
       </form>
 
 
