@@ -83,6 +83,15 @@ body, html {
   display: inline-block;
 }
 
+.slidetext{
+  color: #1E2934;
+  text-shadow: 0.5px 0.5px #FFFFFF;
+}
+
+.shadow{
+  text-shadow: 2px 2px #FFFFFF;
+}
+
 .center{
   text-align: center;
   font-size: 14px !important;
@@ -92,6 +101,7 @@ body, html {
 
 .ptext .border.trans{
   background-color: transparent;
+  color: #1E2934;
 }
 
 #showcase h1{
