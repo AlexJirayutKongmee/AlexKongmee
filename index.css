@@ -100,12 +100,18 @@ body, html {
 }
 
 #showcase img{
-  width: 39%;
-  height: 61%;
+  width:200px;
+  border-radius: 50%;
   float: center;
-  padding-top: 80px;
 }
 
+.alex {
+  width:200px;
+  border-radius: 50%;
+  float: center;
+  margin-top: 20%;
+
+}
 .left{
   text-align: left;
 }
