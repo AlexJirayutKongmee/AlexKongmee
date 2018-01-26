@@ -171,8 +171,8 @@
   </div>
  
     <script>
-      function printDiv(printableArea) {
-     var printContents = document.getElementById(printableArea).innerHTML;
+      function printDiv(container) {
+     var printContents = document.getElementById(container).innerHTML;
      var originalContents = document.body.innerHTML;
 
      document.body.innerHTML = printContents;
