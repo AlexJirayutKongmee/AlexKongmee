@@ -50,3 +50,9 @@ body, html {
 .bold {
   font-weight: bold;
 }
+
+.alex {
+  width:200px;
+  border-radius: 50%;
+  float: center;
+}
